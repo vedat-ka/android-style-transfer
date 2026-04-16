@@ -1,0 +1,28 @@
+# Lokale SDK- und Maschinenkonfiguration
+local.properties
+
+# Gradle- und Build-Artefakte
+.gradle/
+.kotlin/
+**/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signierung (Signing)
+*.jks
+*.keystore
+
+# Editor
+.vscode/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
