@@ -25,11 +25,9 @@ Die App verwendet ein AdaIN-Modell (Adaptive Instance Normalization): Ein Inhalt
 
 ## Projektstatus
 
-Die bisherige TFLite-/Modellvarianten-Beschreibung gilt fuer dieses Unterprojekt nicht mehr. Die aktuelle Android-App nutzt genau ein ONNX-Modell:
+Die aktuelle Android-App nutzt genau ein ONNX-Modell:
 
 - `app/src/main/assets/models/adain.onnx`
-
-Die fruehere `ModelVariant`-Logik wird nicht mehr verwendet.
 
 ## Voraussetzungen
 
@@ -40,7 +38,7 @@ Die fruehere `ModelVariant`-Logik wird nicht mehr verwendet.
 
 ## Projekt in Android Studio oeffnen
 
-1. Das Unterverzeichnis `android-style-transfer` als eigenes Projekt in Android Studio oeffnen.
+1. Das Verzeichnis `android-style-transfer` als eigenes Projekt in Android Studio oeffnen.
 2. Gradle-Sync ausfuehren.
 3. Einen Emulator oder ein physisches Android-Geraet waehlen.
 4. Die App aus dem `app`-Modul starten.
@@ -99,7 +97,3 @@ Insbesondere muessen diese Punkte zusammenpassen:
 - Output-Name: `output`
 - Normalisierung auf `[0, 1]`
 - Kanalreihenfolge `CHW`
-
-## Bezug zum Repository
-
-Das Android-Unterprojekt ist die mobile Umsetzung des Stiltransfer-Demos im Repository. Im Unterschied zu den Notebook-Experimenten ist die Android-App auf direkten Einsatz auf dem Geraet ausgelegt.
